@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import me from "../media/me.jpg"
 
 export const ListLink = styled.li`
   @media (max-width: 500px) {
@@ -140,7 +139,7 @@ export const img = styled.div`
   }
   width: 100%;
   height: 100vh;
-  background-image: url(${me});
+  background-image: url("https://im.ezgif.com/tmp/ezgif-1-fc6951033b51.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
