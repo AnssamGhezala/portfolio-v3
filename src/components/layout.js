@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import * as Styled from "../stylesheet/styled"
-import me from "../media/me.jpg"
+
 const ListLink = props => (
   <Styled.ListLink>
     <Link to={props.to}>{props.children}</Link>
