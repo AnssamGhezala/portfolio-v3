@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import AnimateOnChange from "react-animate-on-change"
 import "../stylesheet/styles.css"
 import * as Styled from "../stylesheet/styled"
+import { Link } from "gatsby"
 
 const HomeDescription = () => {
   const roles = ["web developer", "writer", "learner", "student"]
@@ -41,14 +42,14 @@ const HomeDescription = () => {
         {" "}
         Hi! I'm a Software Engineering student at{" "}
         <Styled.underline>McGill University</Styled.underline> :) I like
-        building small things with{" "}
+        building <Link to="/projects/">cool things</Link> with{" "}
         <Styled.underline>JavaScript</Styled.underline> and{" "}
         <Styled.underline>React</Styled.underline> and am exploring the web dev
         world! I also write{" "}
         <Styled.underline>monthly articles</Styled.underline> on{" "}
         <a href="https://dev.to/anssamghezala">dev.to </a>and{" "}
-        <a href="https://medium.com/@ghezala.anssam">Medium</a>. Chekchout my
-        publications!
+        <a href="https://medium.com/@ghezala.anssam">Medium</a>. Chekchout my{" "}
+        <Link to="/publications/">publications</Link>!
       </Styled.miniDescription>
     </Styled.HomeDescription>
   )
