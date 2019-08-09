@@ -29,7 +29,6 @@ const HomeDescription = () => {
         <Styled.h1>
           My name is Anssam, and I'm a <br></br>
         </Styled.h1>
-
         <AnimateOnChange
           baseClassName="message"
           animationClassName="message-clicked"
