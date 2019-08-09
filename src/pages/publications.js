@@ -19,7 +19,7 @@ export default () => (
           >
             <Styled.publicationButton type="submit">
               <Styled.publicationTitle>
-                YOU DON'T HAVE TO USE REDUX🏅
+                YOU DON'T HAVE TO USE REDUX <span role="img">🏅</span>
               </Styled.publicationTitle>
               <p>
                 An article published on dev.to comparing 3 different ways of

@@ -1,12 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
+import * as Styled from "../stylesheet/styled"
+
 export default () => (
   <Layout>
     <div>
-      <h1>I'd love to talk! Email me at the address below</h1>
-      <p>
-        <a href="mailto:me@example.com">me@example.com</a>
-      </p>
+      <h1>
+        Checkout my projects{" "}
+        <a href="https://github.com/AnssamGhezala">here!</a>
+      </h1>
     </div>
   </Layout>
 )
