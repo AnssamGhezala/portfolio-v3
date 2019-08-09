@@ -139,7 +139,7 @@ export const img = styled.div`
   }
   width: 100%;
   height: 100vh;
-  background-image: url("https://im.ezgif.com/tmp/ezgif-1-fc6951033b51.jpg");
+  background-image: url("https://i.imgur.com/BJDcR6u.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
