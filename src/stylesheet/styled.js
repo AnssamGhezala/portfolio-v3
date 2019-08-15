@@ -55,6 +55,16 @@ export const publicationContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
 `
+
+export const projectsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  @media (min-width: 500px) {
+    height: 24em;
+    overflow: scroll;
+  }
+`
+
 export const publicationTitle = styled.label`
   font-weight: bold;
   font-size: 20px;
@@ -73,7 +83,7 @@ export const publicationButton = styled.button`
   display: inline-block;
   text-align: center;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 #31302b;
+  box-shadow: inset 0 0 1px 0 #31302b;
   -webkit-transition: all ease 0.8s;
   -moz-transition: all ease 0.8s;
   transition: all ease 0.8s;
@@ -84,7 +94,7 @@ export const publicationButton = styled.button`
   }
   @media (min-width: 500px) {
     &:hover {
-      box-shadow: inset 0 130px 0 0 #84fab0;
+      box-shadow: inset 0 135px 0 0 #84fab0;
       color: #fff;
     }
   }
@@ -156,7 +166,7 @@ export const HomeDescription = styled.div`
     margin-top: 0px;
   }
   margin-right: 10px;
-  margin-top: 20vh;
+  margin-top: 30%;
   width: 100%;
 `
 
