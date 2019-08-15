@@ -24,8 +24,6 @@ export default ({ children }) => (
       </header>
       {children}
     </Styled.div>
-    <Styled.img>
-      {/* <img src={me} alt="Group of pandas eating bamboo" /> */}
-    </Styled.img>
+    <Styled.img></Styled.img>
   </Styled.wrapper>
 )

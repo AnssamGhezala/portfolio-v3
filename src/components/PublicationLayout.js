@@ -9,7 +9,7 @@ const PublicationLayout = ({ title, medal, url, description }) => {
           {title}
           {medal && <span role="img">🏅</span>}
         </Styled.publicationTitle>
-        <p>{description}</p>
+        <div>{description}</div>
       </Styled.publicationButton>
     </form>
   )

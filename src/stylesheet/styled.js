@@ -94,7 +94,7 @@ export const publicationButton = styled.button`
   }
   @media (min-width: 500px) {
     &:hover {
-      box-shadow: inset 0 135px 0 0 #84fab0;
+      box-shadow: inset 0 145px 0 0 #84fab0;
       color: #fff;
     }
   }
