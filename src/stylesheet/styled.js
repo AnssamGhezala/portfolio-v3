@@ -11,7 +11,7 @@ export const ListLink = styled.li`
   margin-right: 1rem;
 `
 export const div = styled.div`
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   margin: 3rem auto;
   max-width: 650px;
@@ -30,11 +30,18 @@ export const miniDescription = styled.p`
 export const titleContainer = styled.div`
   margin-bottom: 10px;
   display: block;
+  @media (min-width: 500px) {
+    height: 150px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 15%;
+    height: 10em;
+  }
 `
 
 export const h1 = styled.h1`
   @media (max-width: 500px) {
-    font-size: 15vw;
+    font-size: 12vw;
   }
   margin-top: 0px;
   margin-bottom: 0px;
@@ -54,7 +61,7 @@ export const publicationTitle = styled.label`
 `
 
 export const publicationButton = styled.button`
-  width: 100%;
+  width: 50%;
   font-size: 14px;
   color: #31302b;
   background: #fff;
