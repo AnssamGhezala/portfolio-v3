@@ -173,5 +173,3 @@ export const HomeDescription = styled.div`
 export const home = styled.div`
   width: 100%;
 `
-
-//181.562x322.766

@@ -20,7 +20,7 @@ const publications = [
     medal: false,
   },
   {
-    title: "YOU DON'T HAVE TO USE REDUX",
+    title: "HOW TO BUILD YOUR REUSABLE COMPONENT",
     description:
       "Shows how to build a reusable table component. The table can be easily customized either by using pre-built themes or using a custom stylesheet and supports changing its density.",
     url:
