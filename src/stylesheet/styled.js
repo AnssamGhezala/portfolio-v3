@@ -61,7 +61,7 @@ export const publicationTitle = styled.label`
 `
 
 export const publicationButton = styled.button`
-  width: 50%;
+  width: 100%;
   font-size: 14px;
   color: #31302b;
   background: #fff;
