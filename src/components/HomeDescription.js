@@ -47,7 +47,7 @@ const HomeDescription = () => {
         world! I also write{" "}
         <Styled.underline>monthly articles</Styled.underline> on{" "}
         <a href="https://dev.to/anssamghezala">dev.to </a>and{" "}
-        <a href="https://medium.com/@ghezala.anssam">Medium</a>. Chekckout my{" "}
+        <a href="https://medium.com/@ghezala.anssam">Medium</a>. Checkout my{" "}
         <Link to="/publications/">publications</Link>!
       </Styled.miniDescription>
     </Styled.HomeDescription>
