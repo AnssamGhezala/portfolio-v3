@@ -6,7 +6,7 @@ import * as Styled from "../stylesheet/styled"
 
 export default ({ data }) => (
   <Layout>
-    <div>
+    <div style={{ paddingBottom: "20%" }}>
       <h1>Projects so far :)</h1>
       <div style={{ paddingLeft: "10px", marginBottom: "10%" }}>
         All of them can be found <a href="github.com/AnssamGhezala">here</a>!{" "}

@@ -53,12 +53,16 @@ export const buttonContainer = styled.div`
 
 export const publicationContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  @media (min-width: 500px) {
+    height: 24em;
+    overflow: scroll;
+  }
 `
 
 export const projectsContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   @media (min-width: 500px) {
     height: 24em;
     overflow: scroll;
@@ -154,8 +158,6 @@ export const img = styled.div`
   @media (max-width: 500px) {
     display: none;
   }
-  width: 100%;
-  height: 100vh;
   background-image: url("https://i.imgur.com/BJDcR6u.jpg");
   background-position: center;
   background-repeat: no-repeat;

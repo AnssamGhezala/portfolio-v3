@@ -18,11 +18,19 @@ module.exports = {
         medal: true,
       },
       {
-        title: "COOL KIDS HANDLE STATE WITH HOOKS",
+        title: "Contentful+Gatsby = Smarter content management",
         description:
-          "A writeup on Medium aiming to showcase the current state of state management in React using useState and useReducer hooks.",
+          "A writeup published by Soshace aiming to show how to integrate Contentful with Gatsby for better content management. Includes a small introduction to GraphQL data querying",
         url:
-          "https://medium.com/@ghezala.anssam/cool-kids-handle-state-with-hooks-3d2abad6651c",
+          "https://blog.soshace.com/en/javascript/react/contentfulgatsby-smarter-content-management/",
+        medal: false,
+      },
+      {
+        title: "HOW TO BUILD YOUR REUSABLE COMPONENT",
+        description:
+          "Shows how to build a reusable table component. The table can be easily customized either by using pre-built themes or using a custom stylesheet and supports changing its density.",
+        url:
+          "https://dev.to/anssamghezala/how-to-build-your-reusable-component-1mcb",
         medal: false,
       },
       {
@@ -36,10 +44,10 @@ module.exports = {
     ],
     projects: [
       {
-        title: "Customizable table 💅",
+        title: "Flora 🌿(AI+Climate Change Hackathon 🔥)",
         description:
-          "Customizable table using the latest version of React Hooks, styled-components for CSS-in-JS styling",
-        url: "https://github.com/AnssamGhezala/custom-table",
+          "Android+IOS application using an AI to classify different categories of leaves (diseased or non-diseased), with a Google Map spreading showing the area of the diseased leaves. Built using Keras (Python neural-network library) for the deep-learning model, Flask for the REST API and React Native for the UI.",
+        url: "https://devpost.com/software/awesomeproject",
         medal: false,
       },
       {
@@ -48,6 +56,13 @@ module.exports = {
           "Personal portfolio containing information about me, my publications, projects and way to contant me. Built using Gatsby, styled-components (CSS-in-JS), GraphQL (data query) and Netlify (deployment). You are looking at it right now!",
         url: "https://github.com/AnssamGhezala/portfolio-v3",
         medal: true,
+      },
+      {
+        title: "Customizable table 💅",
+        description:
+          "Customizable table using the latest version of React Hooks, styled-components for CSS-in-JS styling",
+        url: "https://github.com/AnssamGhezala/custom-table",
+        medal: false,
       },
       {
         title: "Calculator ➗",

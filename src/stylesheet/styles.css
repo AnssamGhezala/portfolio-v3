@@ -9,10 +9,6 @@ html {
 form {
   margin-bottom: 0px;
 }
-body {
-  width: 100vw;
-  height: 100vh;
-}
 
 .message {
   display: inline-block;
