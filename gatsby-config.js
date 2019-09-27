@@ -34,11 +34,11 @@ module.exports = {
         medal: false,
       },
       {
-        title: "HOW TO BUILD YOUR REUSABLE COMPONENT",
+        title: "COOL KIDS HANDLE STATE WITH HOOKS",
         description:
-          "Shows how to build a reusable table component. The table can be easily customized either by using pre-built themes or using a custom stylesheet and supports changing its density.",
+          "A writeup on Medium aiming to showcase the current state of state management in React using useState and useReducer hooks.",
         url:
-          "https://dev.to/anssamghezala/how-to-build-your-reusable-component-1mcb",
+          "https://medium.com/@ghezala.anssam/cool-kids-handle-state-with-hooks-3d2abad6651c",
         medal: false,
       },
     ],
