@@ -12,12 +12,12 @@ export default ({ data }) => (
         All of them can be found <a href="github.com/AnssamGhezala">here</a>!{" "}
       </div>
       <Styled.projectsContainer>
-        {data.site.siteMetadata.projects.map((el, idx) => (
+        {data.allContentfulProject.edges.map((el, idx) => (
           <PublicationLayout
-            title={el.title}
-            medal={el.medal}
-            description={el.description}
-            url={el.url}
+            key={idx}
+            title={el.node.title}
+            description={el.node.description}
+            url={el.node.slug}
           ></PublicationLayout>
         ))}
       </Styled.projectsContainer>
@@ -27,13 +27,12 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    site {
-      siteMetadata {
-        projects {
+    allContentfulProject {
+      edges {
+        node {
           title
           description
-          url
-          medal
+          slug
         }
       }
     }

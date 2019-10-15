@@ -6,10 +6,7 @@ const PublicationLayout = ({ title, medal, url, description }) => {
     <div>
       <form action={url} method="get" target="_blank" style={{ width: "100%" }}>
         <Styled.publicationButton type="submit">
-          <Styled.publicationTitle>
-            {title}
-            {medal && <span role="img">🏅</span>}
-          </Styled.publicationTitle>
+          <Styled.publicationTitle>{title}</Styled.publicationTitle>
           <div>{description}</div>
         </Styled.publicationButton>
       </form>

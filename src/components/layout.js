@@ -24,6 +24,5 @@ export default ({ children }) => (
       </header>
       {children}
     </Styled.div>
-    <Styled.img></Styled.img>
   </Styled.wrapper>
 )

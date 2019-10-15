@@ -12,12 +12,12 @@ export default ({ data }) => (
         I publish articles monthly, every 1st day of the month!
       </div>
       <Styled.publicationContainer>
-        {data.site.siteMetadata.publications.map((el, idx) => (
+        {data.allContentfulPublication.edges.map((el, idx) => (
           <PublicationLayout
-            title={el.title}
-            medal={el.medal}
-            description={el.description}
-            url={el.url}
+            key={idx}
+            title={el.node.title}
+            description={el.node.description}
+            url={el.node.slug}
           ></PublicationLayout>
         ))}
       </Styled.publicationContainer>
@@ -26,13 +26,12 @@ export default ({ data }) => (
 )
 export const query = graphql`
   query {
-    site {
-      siteMetadata {
-        publications {
+    allContentfulPublication {
+      edges {
+        node {
           title
           description
-          url
-          medal
+          slug
         }
       }
     }

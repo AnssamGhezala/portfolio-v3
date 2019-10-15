@@ -1,9 +1,8 @@
 import React from "react"
-import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import * as Styled from "../stylesheet/styled"
 
-export default ({ data }) => (
+export default () => (
   <Layout>
     <div>
       <h1>About me</h1>
@@ -44,12 +43,3 @@ export default ({ data }) => (
     </div>
   </Layout>
 )
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
